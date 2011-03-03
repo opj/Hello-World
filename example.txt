@@ -1,0 +1,376 @@
+411  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization started
+457  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.s.w.c.s.XmlWebApplicationContext - Refreshing org.springframework.web.context.support.XmlWebApplicationContext@974e4b: display name [Root WebApplicationContext]; startup date [Thu Jan 20 16:53:09 IST 2011]; root of context hierarchy
+532  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+533  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG o.s.b.f.xml.DefaultDocumentLoader - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+535  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG o.s.b.f.xml.PluggableSchemaResolver - Loading schema mappings from [META-INF/spring.schemas]
+536  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG o.s.b.f.xml.PluggableSchemaResolver - Loaded schema mappings: {http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd}
+538  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG o.s.b.f.xml.PluggableSchemaResolver - Found XML schema [http://www.springframework.org/schema/beans/spring-beans-2.5.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+550  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG o.s.b.f.x.DefaultBeanDefinitionDocumentReader - Loading bean definitions
+578  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG o.s.b.f.xml.XmlBeanDefinitionReader - Loaded 2 bean definitions from location pattern [/WEB-INF/applicationContext.xml]
+578  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.s.w.c.s.XmlWebApplicationContext - Bean factory for application context [org.springframework.web.context.support.XmlWebApplicationContext@974e4b]: org.springframework.beans.factory.support.DefaultListableBeanFactory@bb9f5b
+578  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG o.s.w.c.s.XmlWebApplicationContext - 2 beans defined in org.springframework.web.context.support.XmlWebApplicationContext@974e4b: display name [Root WebApplicationContext]; startup date [Thu Jan 20 16:53:09 IST 2011]; root of context hierarchy
+604  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG o.s.w.c.s.XmlWebApplicationContext - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@69adc7]
+607  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG o.s.w.c.s.XmlWebApplicationContext - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@101751]
+611  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG o.s.u.c.s.UiApplicationContextUtils - Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@6af2fb]
+612  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.s.b.f.s.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@bb9f5b: defining beans [userBo,userSpringAction]; root of factory hierarchy
+613  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'userBo'
+614  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'userBo'
+641  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'userBo' to allow for resolving potential circular references
+642  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'userBo'
+642  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'userSpringAction'
+642  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'userSpringAction'
+643  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'userSpringAction' to allow for resolving potential circular references
+644  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'userBo'
+655  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'userSpringAction'
+655  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG o.s.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+655  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 240 ms
+720  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loading action configurations from: struts-default.xml
+725  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.xwork2.util.FileManager - Creating revision for URL: jar:file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%207.0/webapps/Struts2Example/WEB-INF/lib/struts2-core-2.1.8.jar!/struts-default.xml
+746  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded action configuration from: struts-default.xml
+753  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  c.o.x.c.p.XmlConfigurationProvider - Parsing configuration file [struts-default.xml]
+762  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded type: name:xwork impl:com.opensymphony.xwork2.ObjectFactory
+767  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded type:com.opensymphony.xwork2.ObjectFactory name:struts impl:org.apache.struts2.impl.StrutsObjectFactory
+770  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded type:com.opensymphony.xwork2.ActionProxyFactory name:xwork impl:com.opensymphony.xwork2.DefaultActionProxyFactory
+771  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded type:com.opensymphony.xwork2.ActionProxyFactory name:struts impl:org.apache.struts2.impl.StrutsActionProxyFactory
+776  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded type:com.opensymphony.xwork2.conversion.ObjectTypeDeterminer name:tiger impl:com.opensymphony.xwork2.conversion.impl.DefaultObjectTypeDeterminer
+776  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded type:com.opensymphony.xwork2.conversion.ObjectTypeDeterminer name:notiger impl:com.opensymphony.xwork2.conversion.impl.DefaultObjectTypeDeterminer
+776  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded type:com.opensymphony.xwork2.conversion.ObjectTypeDeterminer name:struts impl:com.opensymphony.xwork2.conversion.impl.DefaultObjectTypeDeterminer
+778  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded type:com.opensymphony.xwork2.util.PatternMatcher name:struts impl:com.opensymphony.xwork2.util.WildcardHelper
+779  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded type:com.opensymphony.xwork2.util.PatternMatcher name:namedVariable impl:com.opensymphony.xwork2.util.NamedVariablePatternMatcher
+783  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded type:org.apache.struts2.dispatcher.mapper.ActionMapper name:struts impl:org.apache.struts2.dispatcher.mapper.DefaultActionMapper
+784  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded type:org.apache.struts2.dispatcher.mapper.ActionMapper name:composite impl:org.apache.struts2.dispatcher.mapper.CompositeActionMapper
+785  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded type:org.apache.struts2.dispatcher.mapper.ActionMapper name:restful impl:org.apache.struts2.dispatcher.mapper.RestfulActionMapper
+787  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded type:org.apache.struts2.dispatcher.mapper.ActionMapper name:restful2 impl:org.apache.struts2.dispatcher.mapper.Restful2ActionMapper
+794  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded type:org.apache.struts2.dispatcher.multipart.MultiPartRequest name:struts impl:org.apache.struts2.dispatcher.multipart.JakartaMultiPartRequest
+794  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded type:org.apache.struts2.dispatcher.multipart.MultiPartRequest name:jakarta impl:org.apache.struts2.dispatcher.multipart.JakartaMultiPartRequest
+796  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded type:org.apache.struts2.views.TagLibrary name:s impl:org.apache.struts2.views.DefaultTagLibrary
+807  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded type: name:struts impl:org.apache.struts2.views.freemarker.FreemarkerManager
+809  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Unable to load optional class: java.lang.NoClassDefFoundError: org/apache/velocity/context/Context
+810  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded type: name:default impl:org.apache.struts2.components.template.TemplateEngineManager
+816  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded type:org.apache.struts2.components.template.TemplateEngine name:ftl impl:org.apache.struts2.components.template.FreemarkerTemplateEngine
+818  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded type:org.apache.struts2.components.template.TemplateEngine name:vm impl:org.apache.struts2.components.template.VelocityTemplateEngine
+819  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded type:org.apache.struts2.components.template.TemplateEngine name:jsp impl:org.apache.struts2.components.template.JspTemplateEngine
+821  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded type:com.opensymphony.xwork2.conversion.impl.XWorkConverter name:struts impl:com.opensymphony.xwork2.conversion.impl.XWorkConverter
+822  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded type:com.opensymphony.xwork2.conversion.impl.XWorkConverter name:xwork1 impl:com.opensymphony.xwork2.conversion.impl.XWorkConverter
+825  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded type: name:default impl:com.opensymphony.xwork2.conversion.impl.XWorkBasicConverter
+829  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded type:com.opensymphony.xwork2.TextProvider name:xwork1 impl:com.opensymphony.xwork2.TextProviderSupport
+829  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded type:com.opensymphony.xwork2.TextProvider name:struts impl:com.opensymphony.xwork2.TextProviderSupport
+831  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded type:org.apache.struts2.components.UrlRenderer name:struts impl:org.apache.struts2.components.ServletUrlRenderer
+835  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded type:com.opensymphony.xwork2.util.ValueStackFactory name:struts impl:com.opensymphony.xwork2.ognl.OgnlValueStackFactory
+837  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded type:com.opensymphony.xwork2.util.reflection.ReflectionProvider name:struts impl:com.opensymphony.xwork2.ognl.OgnlReflectionProvider
+839  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded type:com.opensymphony.xwork2.util.reflection.ReflectionContextFactory name:struts impl:com.opensymphony.xwork2.ognl.OgnlReflectionContextFactory
+840  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded type:com.opensymphony.xwork2.TextProvider name:system impl:com.opensymphony.xwork2.DefaultTextProvider
+842  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded type:com.opensymphony.xwork2.conversion.NullHandler name:java.lang.Object impl:com.opensymphony.xwork2.conversion.impl.InstantiatingNullHandler
+847  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded type:com.opensymphony.xwork2.validator.ActionValidatorManager name:struts impl:com.opensymphony.xwork2.validator.AnnotationActionValidatorManager
+849  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded type:com.opensymphony.xwork2.validator.ActionValidatorManager name:no-annotations impl:com.opensymphony.xwork2.validator.DefaultActionValidatorManager
+852  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded type:com.opensymphony.xwork2.validator.ValidatorFactory name:default impl:com.opensymphony.xwork2.validator.DefaultValidatorFactory
+854  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded type:com.opensymphony.xwork2.validator.ValidatorFileParser name:default impl:com.opensymphony.xwork2.validator.DefaultValidatorFileParser
+857  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded type: name:default impl:com.opensymphony.xwork2.ognl.OgnlUtil
+861  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded type:ognl.PropertyAccessor name:com.opensymphony.xwork2.util.CompoundRoot impl:com.opensymphony.xwork2.ognl.accessor.CompoundRootAccessor
+865  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded type:ognl.PropertyAccessor name:java.lang.Object impl:com.opensymphony.xwork2.ognl.accessor.ObjectAccessor
+867  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded type:ognl.PropertyAccessor name:java.util.Iterator impl:com.opensymphony.xwork2.ognl.accessor.XWorkIteratorPropertyAccessor
+868  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded type:ognl.PropertyAccessor name:java.util.Enumeration impl:com.opensymphony.xwork2.ognl.accessor.XWorkEnumerationAccessor
+871  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded type:ognl.PropertyAccessor name:java.util.List impl:com.opensymphony.xwork2.ognl.accessor.XWorkListPropertyAccessor
+873  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded type:ognl.PropertyAccessor name:java.util.Set impl:com.opensymphony.xwork2.ognl.accessor.XWorkCollectionPropertyAccessor
+876  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded type:ognl.PropertyAccessor name:java.util.Map impl:com.opensymphony.xwork2.ognl.accessor.XWorkMapPropertyAccessor
+876  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded type:ognl.PropertyAccessor name:java.util.Collection impl:com.opensymphony.xwork2.ognl.accessor.XWorkCollectionPropertyAccessor
+877  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded type:ognl.PropertyAccessor name:com.opensymphony.xwork2.ognl.ObjectProxy impl:com.opensymphony.xwork2.ognl.accessor.ObjectProxyPropertyAccessor
+879  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded type:ognl.MethodAccessor name:java.lang.Object impl:com.opensymphony.xwork2.ognl.accessor.XWorkMethodAccessor
+879  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded type:ognl.MethodAccessor name:com.opensymphony.xwork2.util.CompoundRoot impl:com.opensymphony.xwork2.ognl.accessor.CompoundRootAccessor
+880  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded type: name:default impl:org.apache.struts2.views.jsp.ui.OgnlTool
+882  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded type:org.apache.struts2.dispatcher.StaticContentLoader name:struts impl:org.apache.struts2.dispatcher.DefaultStaticContentLoader
+888  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded type:com.opensymphony.xwork2.UnknownHandlerManager name:struts impl:com.opensymphony.xwork2.DefaultUnknownHandlerManager
+888  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded type:ognl.PropertyAccessor name:java.util.ArrayList impl:com.opensymphony.xwork2.ognl.accessor.XWorkListPropertyAccessor
+888  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded type:ognl.PropertyAccessor name:java.util.HashSet impl:com.opensymphony.xwork2.ognl.accessor.XWorkCollectionPropertyAccessor
+888  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded type:ognl.PropertyAccessor name:java.util.HashMap impl:com.opensymphony.xwork2.ognl.accessor.XWorkMapPropertyAccessor
+888  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loading action configurations from: struts-plugin.xml
+889  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.xwork2.util.FileManager - Creating revision for URL: jar:file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%207.0/webapps/Struts2Example/WEB-INF/lib/struts2-spring-plugin-2.1.8.jar!/struts-plugin.xml
+893  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded action configuration from: struts-plugin.xml
+893  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  c.o.x.c.p.XmlConfigurationProvider - Parsing configuration file [struts-plugin.xml]
+897  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded type:com.opensymphony.xwork2.ObjectFactory name:spring impl:org.apache.struts2.spring.StrutsSpringObjectFactory
+898  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loading action configurations from: struts.xml
+898  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.xwork2.util.FileManager - Creating revision for URL: file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%207.0/webapps/Struts2Example/WEB-INF/classes/struts.xml
+902  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded action configuration from: struts.xml
+902  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  c.o.x.c.p.XmlConfigurationProvider - Parsing configuration file [struts.xml]
+904  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG o.a.s.config.PropertiesSettings - struts.properties missing
+906  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.config.BeanSelectionProvider - Choosing bean (spring) for class com.opensymphony.xwork2.ObjectFactory
+906  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.config.BeanSelectionProvider - Choosing bean (struts) for class com.opensymphony.xwork2.conversion.impl.XWorkConverter
+906  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.TextProvider
+906  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.ActionProxyFactory
+906  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.conversion.ObjectTypeDeterminer
+906  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.config.BeanSelectionProvider - Choosing bean (struts) for interface org.apache.struts2.dispatcher.mapper.ActionMapper
+906  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.config.BeanSelectionProvider - Choosing bean (jakarta) for interface org.apache.struts2.dispatcher.multipart.MultiPartRequest
+906  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.config.BeanSelectionProvider - Choosing bean (struts) for class org.apache.struts2.views.freemarker.FreemarkerManager
+908  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG o.a.s.config.BeanSelectionProvider - Choosing bean (struts) for class org.apache.struts2.views.velocity.VelocityManager to be loaded from the ObjectFactory
+908  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.config.BeanSelectionProvider - Choosing bean (struts) for interface org.apache.struts2.components.UrlRenderer
+908  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.validator.ActionValidatorManager
+908  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.util.ValueStackFactory
+908  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.util.reflection.ReflectionProvider
+908  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.util.reflection.ReflectionContextFactory
+908  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.util.PatternMatcher
+908  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.config.BeanSelectionProvider - Choosing bean (struts) for interface org.apache.struts2.dispatcher.StaticContentLoader
+908  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.UnknownHandlerManager
+909  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  c.o.x.c.impl.DefaultConfiguration - Overriding property struts.i18n.reload - old value: false new value: true
+909  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  c.o.x.c.impl.DefaultConfiguration - Overriding property struts.configuration.xml.reload - old value: false new value: true
+912  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.xwork2.util.LocalizedTextUtil - Added default resource bundle 'org/apache/struts2/struts-messages' to default resource bundles = [org/apache/struts2/struts-messages, com/opensymphony/xwork2/xwork-messages]
+1009 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.s.StrutsSpringObjectFactory - Initializing Struts-Spring integration...
+1009 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  c.o.x.spring.SpringObjectFactory - Setting autowire strategy to name
+1009 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.s.StrutsSpringObjectFactory - ... initialized Struts-Spring integration successfully
+1019 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded [BUILDER] {PackageConfig Name:struts-default namespace: parents:[]}
+1150 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.v.DefaultValidatorFactory - Loading validator definitions.
+1289 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.interceptor.I18nInterceptor - new I18nInterceptor()
+1296 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.interceptor.I18nInterceptor - new I18nInterceptor()
+1303 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.interceptor.I18nInterceptor - new I18nInterceptor()
+1327 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded [BUILDER] {PackageConfig Name:spring-default namespace: parents:[]}
+1329 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded [BUILDER] {PackageConfig Name:default namespace:/ parents:[{PackageConfig Name:struts-default namespace: parents:[]}]}
+1332 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded //userAction in 'default' package:{ActionConfig userAction (com.mkyong.user.action.UserAction) - action - file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%207.0/webapps/Struts2Example/WEB-INF/classes/struts.xml:12:47}
+1332 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.c.p.XmlConfigurationProvider - Loaded //userSpringAction in 'default' package:{ActionConfig userSpringAction (userSpringAction) - action - file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%207.0/webapps/Struts2Example/WEB-INF/classes/struts.xml:17:30}
+1341 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.config.ConfigurationManager - Checking ConfigurationProviders for reload.
+1344 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DEBUG c.o.x.config.ConfigurationManager - Checking ConfigurationProviders for reload.
+22028 [http-8080-exec-1] DEBUG c.o.x.config.ConfigurationManager - Checking ConfigurationProviders for reload.
+22079 [http-8080-exec-1] DEBUG c.o.x.c.i.InstantiatingNullHandler - Entering nullPropertyValue [target=[com.opensymphony.xwork2.DefaultTextProvider@14feea], property=struts]
+22086 [http-8080-exec-1] DEBUG c.o.x.config.ConfigurationManager - Checking ConfigurationProviders for reload.
+22096 [http-8080-exec-1] DEBUG c.o.x.c.i.InstantiatingNullHandler - Entering nullPropertyValue [target=[com.opensymphony.xwork2.DefaultTextProvider@14feea], property=struts]
+22097 [http-8080-exec-1] DEBUG c.o.x.config.ConfigurationManager - Checking ConfigurationProviders for reload.
+22106 [http-8080-exec-1] DEBUG c.o.xwork2.DefaultActionProxy - Creating an DefaultActionProxy for namespace / and action name userSpringAction
+22106 [http-8080-exec-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'userSpringAction'
+22111 [http-8080-exec-1] DEBUG c.o.x.interceptor.I18nInterceptor - intercept '//userSpringAction' { 
+22112 [http-8080-exec-1] DEBUG c.o.x.interceptor.I18nInterceptor - applied invocation context locale=en_US
+22112 [http-8080-exec-1] DEBUG c.o.x.c.i.InstantiatingNullHandler - Entering nullPropertyValue [target=[com.mkyong.user.action.UserSpringAction@1ce50a9, com.opensymphony.xwork2.DefaultTextProvider@14feea], property=locale]
+22113 [http-8080-exec-1] DEBUG c.o.x.interceptor.I18nInterceptor - before Locale=null
+22137 [http-8080-exec-1] DEBUG c.o.x.c.i.InstantiatingNullHandler - Entering nullPropertyValue [target=[com.mkyong.user.action.UserSpringAction@1ce50a9, com.opensymphony.xwork2.DefaultTextProvider@14feea], property=struts]
+22146 [http-8080-exec-1] DEBUG o.a.s.i.FileUploadInterceptor - Bypassing //userSpringAction
+22146 [http-8080-exec-1] DEBUG c.o.x.i.StaticParametersInterceptor - Setting static parameters {}
+22149 [http-8080-exec-1] DEBUG c.o.x.i.ParametersInterceptor - Setting params NONE
+22149 [http-8080-exec-1] DEBUG c.o.x.i.ParametersInterceptor - Setting params 
+22154 [http-8080-exec-1] DEBUG o.a.s.i.v.AnnotationValidationInterceptor - Validating //userSpringAction with method execute.
+22167 [http-8080-exec-1] DEBUG c.o.xwork2.DefaultActionInvocation - Executing action method = null
+22168 [http-8080-exec-1] INFO  c.m.user.action.UserSpringAction - raju.............
+22168 [http-8080-exec-1] INFO  c.m.user.action.UserSpringAction - raju.............
+22169 [http-8080-exec-1] INFO  c.m.user.action.UserSpringAction - raju.............
+22169 [http-8080-exec-1] DEBUG c.m.user.action.UserSpringAction - >>RAMESH<<
+22169 [http-8080-exec-1] DEBUG c.m.user.action.UserSpringAction - >>RAMESH<<
+22169 [http-8080-exec-1] DEBUG c.m.user.action.UserSpringAction - >>RAMESH<<
+22169 [http-8080-exec-1] DEBUG c.m.user.action.UserSpringAction - >>RAMESH<<
+22169 [http-8080-exec-1] WARN  c.m.user.action.UserSpringAction - KIRAN....TESTING
+22169 [http-8080-exec-1] WARN  c.m.user.action.UserSpringAction - KIRAN....TESTING
+22169 [http-8080-exec-1] WARN  c.m.user.action.UserSpringAction - KIRAN....TESTING
+22191 [http-8080-exec-1] DEBUG o.a.s.d.ServletDispatcherResult - Forwarding to location pages/user.jsp
+22198 [http-8080-exec-1] DEBUG c.o.x.c.i.InstantiatingNullHandler - Entering nullPropertyValue [target=[com.mkyong.user.action.UserSpringAction@1ce50a9, com.opensymphony.xwork2.DefaultTextProvider@14feea], property=org]
+22557 [http-8080-exec-1] DEBUG c.o.x.config.ConfigurationManager - Checking ConfigurationProviders for reload.
+22565 [http-8080-exec-1] DEBUG c.o.x.c.impl.XWorkConverter - Property: userBo
+22565 [http-8080-exec-1] DEBUG c.o.x.c.impl.XWorkConverter - Class: com.mkyong.user.action.UserSpringAction
+22568 [http-8080-exec-1] DEBUG c.o.x.c.impl.XWorkConverter - converter is null for property userBo. Mapping size: 0
+22568 [http-8080-exec-1] DEBUG c.o.x.c.impl.XWorkConverter - field-level type converter for property [userBo] = none found
+22568 [http-8080-exec-1] DEBUG c.o.x.c.impl.XWorkConverter - Property: userBo.userBo
+22568 [http-8080-exec-1] DEBUG c.o.x.c.impl.XWorkConverter - Class: com.mkyong.user.action.UserSpringAction
+22568 [http-8080-exec-1] DEBUG c.o.x.c.impl.XWorkConverter - global-level type converter for property [userBo] = none found
+22568 [http-8080-exec-1] DEBUG c.o.x.c.impl.XWorkConverter - falling back to default type converter [com.opensymphony.xwork2.conversion.impl.XWorkBasicConverter@10a3ffc]
+22588 [http-8080-exec-1] DEBUG c.o.x.c.i.InstantiatingNullHandler - Entering nullPropertyValue [target=[com.mkyong.user.action.UserSpringAction@1ce50a9, com.opensymphony.xwork2.DefaultTextProvider@14feea], property=locale]
+22588 [http-8080-exec-1] DEBUG c.o.x.interceptor.I18nInterceptor - after Locale=null
+22588 [http-8080-exec-1] DEBUG c.o.x.interceptor.I18nInterceptor - intercept } 
+30452 [http-8080-exec-1] DEBUG c.o.x.config.ConfigurationManager - Checking ConfigurationProviders for reload.
+30453 [http-8080-exec-1] DEBUG c.o.x.c.i.InstantiatingNullHandler - Entering nullPropertyValue [target=[com.opensymphony.xwork2.DefaultTextProvider@14feea], property=struts]
+30453 [http-8080-exec-1] DEBUG c.o.x.config.ConfigurationManager - Checking ConfigurationProviders for reload.
+30454 [http-8080-exec-1] DEBUG c.o.x.c.i.InstantiatingNullHandler - Entering nullPropertyValue [target=[com.opensymphony.xwork2.DefaultTextProvider@14feea], property=struts]
+30454 [http-8080-exec-1] DEBUG c.o.x.config.ConfigurationManager - Checking ConfigurationProviders for reload.
+30454 [http-8080-exec-1] DEBUG c.o.xwork2.DefaultActionProxy - Creating an DefaultActionProxy for namespace / and action name userSpringAction
+30455 [http-8080-exec-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'userSpringAction'
+30455 [http-8080-exec-1] DEBUG c.o.x.interceptor.I18nInterceptor - intercept '//userSpringAction' { 
+30455 [http-8080-exec-1] DEBUG c.o.x.interceptor.I18nInterceptor - applied invocation context locale=en_US
+30455 [http-8080-exec-1] DEBUG c.o.x.c.i.InstantiatingNullHandler - Entering nullPropertyValue [target=[com.mkyong.user.action.UserSpringAction@1ce50a9, com.opensymphony.xwork2.DefaultTextProvider@14feea], property=locale]
+30456 [http-8080-exec-1] DEBUG c.o.x.interceptor.I18nInterceptor - before Locale=null
+30456 [http-8080-exec-1] DEBUG c.o.x.c.i.InstantiatingNullHandler - Entering nullPropertyValue [target=[com.mkyong.user.action.UserSpringAction@1ce50a9, com.opensymphony.xwork2.DefaultTextProvider@14feea], property=struts]
+30456 [http-8080-exec-1] DEBUG o.a.s.i.FileUploadInterceptor - Bypassing //userSpringAction
+30456 [http-8080-exec-1] DEBUG c.o.x.i.StaticParametersInterceptor - Setting static parameters {}
+30457 [http-8080-exec-1] DEBUG c.o.x.i.ParametersInterceptor - Setting params NONE
+30457 [http-8080-exec-1] DEBUG c.o.x.i.ParametersInterceptor - Setting params 
+30457 [http-8080-exec-1] DEBUG o.a.s.i.v.AnnotationValidationInterceptor - Validating //userSpringAction with method execute.
+30466 [http-8080-exec-1] DEBUG c.o.xwork2.DefaultActionInvocation - Executing action method = null
+30470 [http-8080-exec-1] INFO  c.m.user.action.UserSpringAction - raju.............
+30470 [http-8080-exec-1] INFO  c.m.user.action.UserSpringAction - raju.............
+30470 [http-8080-exec-1] INFO  c.m.user.action.UserSpringAction - raju.............
+30470 [http-8080-exec-1] DEBUG c.m.user.action.UserSpringAction - >>RAMESH<<
+30471 [http-8080-exec-1] DEBUG c.m.user.action.UserSpringAction - >>RAMESH<<
+30471 [http-8080-exec-1] DEBUG c.m.user.action.UserSpringAction - >>RAMESH<<
+30471 [http-8080-exec-1] DEBUG c.m.user.action.UserSpringAction - >>RAMESH<<
+30471 [http-8080-exec-1] WARN  c.m.user.action.UserSpringAction - KIRAN....TESTING
+30471 [http-8080-exec-1] WARN  c.m.user.action.UserSpringAction - KIRAN....TESTING
+30471 [http-8080-exec-1] WARN  c.m.user.action.UserSpringAction - KIRAN....TESTING
+30472 [http-8080-exec-1] DEBUG o.a.s.d.ServletDispatcherResult - Forwarding to location pages/user.jsp
+30472 [http-8080-exec-1] DEBUG c.o.x.c.i.InstantiatingNullHandler - Entering nullPropertyValue [target=[com.mkyong.user.action.UserSpringAction@1ce50a9, com.opensymphony.xwork2.DefaultTextProvider@14feea], property=org]
+30477 [http-8080-exec-1] DEBUG c.o.x.config.ConfigurationManager - Checking ConfigurationProviders for reload.
+30478 [http-8080-exec-1] DEBUG c.o.x.c.impl.XWorkConverter - Property: userBo
+30478 [http-8080-exec-1] DEBUG c.o.x.c.impl.XWorkConverter - Class: com.mkyong.user.action.UserSpringAction
+30478 [http-8080-exec-1] DEBUG c.o.x.c.impl.XWorkConverter - field-level type converter for property [userBo] = none found
+30478 [http-8080-exec-1] DEBUG c.o.x.c.impl.XWorkConverter - Property: userBo.userBo
+30478 [http-8080-exec-1] DEBUG c.o.x.c.impl.XWorkConverter - Class: com.mkyong.user.action.UserSpringAction
+30479 [http-8080-exec-1] DEBUG c.o.x.c.impl.XWorkConverter - global-level type converter for property [userBo] = none found
+30479 [http-8080-exec-1] DEBUG c.o.x.c.impl.XWorkConverter - falling back to default type converter [com.opensymphony.xwork2.conversion.impl.XWorkBasicConverter@10a3ffc]
+30479 [http-8080-exec-1] DEBUG c.o.x.c.i.InstantiatingNullHandler - Entering nullPropertyValue [target=[com.mkyong.user.action.UserSpringAction@1ce50a9, com.opensymphony.xwork2.DefaultTextProvider@14feea], property=locale]
+30479 [http-8080-exec-1] DEBUG c.o.x.interceptor.I18nInterceptor - after Locale=null
+30479 [http-8080-exec-1] DEBUG c.o.x.interceptor.I18nInterceptor - intercept } 
+31269 [http-8080-exec-1] DEBUG c.o.x.config.ConfigurationManager - Checking ConfigurationProviders for reload.
+31270 [http-8080-exec-1] DEBUG c.o.x.c.i.InstantiatingNullHandler - Entering nullPropertyValue [target=[com.opensymphony.xwork2.DefaultTextProvider@14feea], property=struts]
+31270 [http-8080-exec-1] DEBUG c.o.x.config.ConfigurationManager - Checking ConfigurationProviders for reload.
+31272 [http-8080-exec-1] DEBUG c.o.x.c.i.InstantiatingNullHandler - Entering nullPropertyValue [target=[com.opensymphony.xwork2.DefaultTextProvider@14feea], property=struts]
+31273 [http-8080-exec-1] DEBUG c.o.x.config.ConfigurationManager - Checking ConfigurationProviders for reload.
+31273 [http-8080-exec-1] DEBUG c.o.xwork2.DefaultActionProxy - Creating an DefaultActionProxy for namespace / and action name userSpringAction
+31274 [http-8080-exec-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'userSpringAction'
+31274 [http-8080-exec-1] DEBUG c.o.x.interceptor.I18nInterceptor - intercept '//userSpringAction' { 
+31274 [http-8080-exec-1] DEBUG c.o.x.interceptor.I18nInterceptor - applied invocation context locale=en_US
+31274 [http-8080-exec-1] DEBUG c.o.x.c.i.InstantiatingNullHandler - Entering nullPropertyValue [target=[com.mkyong.user.action.UserSpringAction@1ce50a9, com.opensymphony.xwork2.DefaultTextProvider@14feea], property=locale]
+31274 [http-8080-exec-1] DEBUG c.o.x.interceptor.I18nInterceptor - before Locale=null
+31275 [http-8080-exec-1] DEBUG c.o.x.c.i.InstantiatingNullHandler - Entering nullPropertyValue [target=[com.mkyong.user.action.UserSpringAction@1ce50a9, com.opensymphony.xwork2.DefaultTextProvider@14feea], property=struts]
+31275 [http-8080-exec-1] DEBUG o.a.s.i.FileUploadInterceptor - Bypassing //userSpringAction
+31275 [http-8080-exec-1] DEBUG c.o.x.i.StaticParametersInterceptor - Setting static parameters {}
+31276 [http-8080-exec-1] DEBUG c.o.x.i.ParametersInterceptor - Setting params NONE
+31276 [http-8080-exec-1] DEBUG c.o.x.i.ParametersInterceptor - Setting params 
+31277 [http-8080-exec-1] DEBUG o.a.s.i.v.AnnotationValidationInterceptor - Validating //userSpringAction with method execute.
+31282 [http-8080-exec-1] DEBUG c.o.xwork2.DefaultActionInvocation - Executing action method = null
+31287 [http-8080-exec-1] INFO  c.m.user.action.UserSpringAction - raju.............
+31288 [http-8080-exec-1] INFO  c.m.user.action.UserSpringAction - raju.............
+31288 [http-8080-exec-1] INFO  c.m.user.action.UserSpringAction - raju.............
+31288 [http-8080-exec-1] DEBUG c.m.user.action.UserSpringAction - >>RAMESH<<
+31288 [http-8080-exec-1] DEBUG c.m.user.action.UserSpringAction - >>RAMESH<<
+31288 [http-8080-exec-1] DEBUG c.m.user.action.UserSpringAction - >>RAMESH<<
+31288 [http-8080-exec-1] DEBUG c.m.user.action.UserSpringAction - >>RAMESH<<
+31288 [http-8080-exec-1] WARN  c.m.user.action.UserSpringAction - KIRAN....TESTING
+31288 [http-8080-exec-1] WARN  c.m.user.action.UserSpringAction - KIRAN....TESTING
+31288 [http-8080-exec-1] WARN  c.m.user.action.UserSpringAction - KIRAN....TESTING
+31289 [http-8080-exec-1] DEBUG o.a.s.d.ServletDispatcherResult - Forwarding to location pages/user.jsp
+31289 [http-8080-exec-1] DEBUG c.o.x.c.i.InstantiatingNullHandler - Entering nullPropertyValue [target=[com.mkyong.user.action.UserSpringAction@1ce50a9, com.opensymphony.xwork2.DefaultTextProvider@14feea], property=org]
+31290 [http-8080-exec-1] DEBUG c.o.x.config.ConfigurationManager - Checking ConfigurationProviders for reload.
+31290 [http-8080-exec-1] DEBUG c.o.x.c.impl.XWorkConverter - Property: userBo
+31290 [http-8080-exec-1] DEBUG c.o.x.c.impl.XWorkConverter - Class: com.mkyong.user.action.UserSpringAction
+31290 [http-8080-exec-1] DEBUG c.o.x.c.impl.XWorkConverter - field-level type converter for property [userBo] = none found
+31291 [http-8080-exec-1] DEBUG c.o.x.c.impl.XWorkConverter - Property: userBo.userBo
+31291 [http-8080-exec-1] DEBUG c.o.x.c.impl.XWorkConverter - Class: com.mkyong.user.action.UserSpringAction
+31291 [http-8080-exec-1] DEBUG c.o.x.c.impl.XWorkConverter - global-level type converter for property [userBo] = none found
+31291 [http-8080-exec-1] DEBUG c.o.x.c.impl.XWorkConverter - falling back to default type converter [com.opensymphony.xwork2.conversion.impl.XWorkBasicConverter@10a3ffc]
+31291 [http-8080-exec-1] DEBUG c.o.x.c.i.InstantiatingNullHandler - Entering nullPropertyValue [target=[com.mkyong.user.action.UserSpringAction@1ce50a9, com.opensymphony.xwork2.DefaultTextProvider@14feea], property=locale]
+31291 [http-8080-exec-1] DEBUG c.o.x.interceptor.I18nInterceptor - after Locale=null
+31291 [http-8080-exec-1] DEBUG c.o.x.interceptor.I18nInterceptor - intercept } 
+31710 [http-8080-exec-1] DEBUG c.o.x.config.ConfigurationManager - Checking ConfigurationProviders for reload.
+31711 [http-8080-exec-1] DEBUG c.o.x.c.i.InstantiatingNullHandler - Entering nullPropertyValue [target=[com.opensymphony.xwork2.DefaultTextProvider@14feea], property=struts]
+31711 [http-8080-exec-1] DEBUG c.o.x.config.ConfigurationManager - Checking ConfigurationProviders for reload.
+31712 [http-8080-exec-1] DEBUG c.o.x.c.i.InstantiatingNullHandler - Entering nullPropertyValue [target=[com.opensymphony.xwork2.DefaultTextProvider@14feea], property=struts]
+31712 [http-8080-exec-1] DEBUG c.o.x.config.ConfigurationManager - Checking ConfigurationProviders for reload.
+31713 [http-8080-exec-1] DEBUG c.o.xwork2.DefaultActionProxy - Creating an DefaultActionProxy for namespace / and action name userSpringAction
+31713 [http-8080-exec-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'userSpringAction'
+31713 [http-8080-exec-1] DEBUG c.o.x.interceptor.I18nInterceptor - intercept '//userSpringAction' { 
+31713 [http-8080-exec-1] DEBUG c.o.x.interceptor.I18nInterceptor - applied invocation context locale=en_US
+31713 [http-8080-exec-1] DEBUG c.o.x.c.i.InstantiatingNullHandler - Entering nullPropertyValue [target=[com.mkyong.user.action.UserSpringAction@1ce50a9, com.opensymphony.xwork2.DefaultTextProvider@14feea], property=locale]
+31713 [http-8080-exec-1] DEBUG c.o.x.interceptor.I18nInterceptor - before Locale=null
+31714 [http-8080-exec-1] DEBUG c.o.x.c.i.InstantiatingNullHandler - Entering nullPropertyValue [target=[com.mkyong.user.action.UserSpringAction@1ce50a9, com.opensymphony.xwork2.DefaultTextProvider@14feea], property=struts]
+31714 [http-8080-exec-1] DEBUG o.a.s.i.FileUploadInterceptor - Bypassing //userSpringAction
+31714 [http-8080-exec-1] DEBUG c.o.x.i.StaticParametersInterceptor - Setting static parameters {}
+31717 [http-8080-exec-1] DEBUG c.o.x.i.ParametersInterceptor - Setting params NONE
+31717 [http-8080-exec-1] DEBUG c.o.x.i.ParametersInterceptor - Setting params 
+31717 [http-8080-exec-1] DEBUG o.a.s.i.v.AnnotationValidationInterceptor - Validating //userSpringAction with method execute.
+31725 [http-8080-exec-1] DEBUG c.o.xwork2.DefaultActionInvocation - Executing action method = null
+31730 [http-8080-exec-1] INFO  c.m.user.action.UserSpringAction - raju.............
+31730 [http-8080-exec-1] INFO  c.m.user.action.UserSpringAction - raju.............
+31730 [http-8080-exec-1] INFO  c.m.user.action.UserSpringAction - raju.............
+31730 [http-8080-exec-1] DEBUG c.m.user.action.UserSpringAction - >>RAMESH<<
+31730 [http-8080-exec-1] DEBUG c.m.user.action.UserSpringAction - >>RAMESH<<
+31730 [http-8080-exec-1] DEBUG c.m.user.action.UserSpringAction - >>RAMESH<<
+31730 [http-8080-exec-1] DEBUG c.m.user.action.UserSpringAction - >>RAMESH<<
+31730 [http-8080-exec-1] WARN  c.m.user.action.UserSpringAction - KIRAN....TESTING
+31730 [http-8080-exec-1] WARN  c.m.user.action.UserSpringAction - KIRAN....TESTING
+31730 [http-8080-exec-1] WARN  c.m.user.action.UserSpringAction - KIRAN....TESTING
+31731 [http-8080-exec-1] DEBUG o.a.s.d.ServletDispatcherResult - Forwarding to location pages/user.jsp
+31732 [http-8080-exec-1] DEBUG c.o.x.c.i.InstantiatingNullHandler - Entering nullPropertyValue [target=[com.mkyong.user.action.UserSpringAction@1ce50a9, com.opensymphony.xwork2.DefaultTextProvider@14feea], property=org]
+31732 [http-8080-exec-1] DEBUG c.o.x.config.ConfigurationManager - Checking ConfigurationProviders for reload.
+31733 [http-8080-exec-1] DEBUG c.o.x.c.impl.XWorkConverter - Property: userBo
+31733 [http-8080-exec-1] DEBUG c.o.x.c.impl.XWorkConverter - Class: com.mkyong.user.action.UserSpringAction
+31733 [http-8080-exec-1] DEBUG c.o.x.c.impl.XWorkConverter - field-level type converter for property [userBo] = none found
+31733 [http-8080-exec-1] DEBUG c.o.x.c.impl.XWorkConverter - Property: userBo.userBo
+31733 [http-8080-exec-1] DEBUG c.o.x.c.impl.XWorkConverter - Class: com.mkyong.user.action.UserSpringAction
+31733 [http-8080-exec-1] DEBUG c.o.x.c.impl.XWorkConverter - global-level type converter for property [userBo] = none found
+31733 [http-8080-exec-1] DEBUG c.o.x.c.impl.XWorkConverter - falling back to default type converter [com.opensymphony.xwork2.conversion.impl.XWorkBasicConverter@10a3ffc]
+31734 [http-8080-exec-1] DEBUG c.o.x.c.i.InstantiatingNullHandler - Entering nullPropertyValue [target=[com.mkyong.user.action.UserSpringAction@1ce50a9, com.opensymphony.xwork2.DefaultTextProvider@14feea], property=locale]
+31734 [http-8080-exec-1] DEBUG c.o.x.interceptor.I18nInterceptor - after Locale=null
+31734 [http-8080-exec-1] DEBUG c.o.x.interceptor.I18nInterceptor - intercept } 
+44358 [http-8080-exec-1] DEBUG c.o.x.config.ConfigurationManager - Checking ConfigurationProviders for reload.
+44359 [http-8080-exec-1] DEBUG c.o.x.c.i.InstantiatingNullHandler - Entering nullPropertyValue [target=[com.opensymphony.xwork2.DefaultTextProvider@14feea], property=struts]
+44359 [http-8080-exec-1] DEBUG c.o.x.config.ConfigurationManager - Checking ConfigurationProviders for reload.
+44360 [http-8080-exec-1] DEBUG c.o.x.c.i.InstantiatingNullHandler - Entering nullPropertyValue [target=[com.opensymphony.xwork2.DefaultTextProvider@14feea], property=struts]
+44360 [http-8080-exec-1] DEBUG c.o.x.config.ConfigurationManager - Checking ConfigurationProviders for reload.
+44361 [http-8080-exec-1] DEBUG c.o.xwork2.DefaultActionProxy - Creating an DefaultActionProxy for namespace / and action name userSpringAction
+44361 [http-8080-exec-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'userSpringAction'
+44361 [http-8080-exec-1] DEBUG c.o.x.interceptor.I18nInterceptor - intercept '//userSpringAction' { 
+44361 [http-8080-exec-1] DEBUG c.o.x.interceptor.I18nInterceptor - applied invocation context locale=en_US
+44361 [http-8080-exec-1] DEBUG c.o.x.c.i.InstantiatingNullHandler - Entering nullPropertyValue [target=[com.mkyong.user.action.UserSpringAction@1ce50a9, com.opensymphony.xwork2.DefaultTextProvider@14feea], property=locale]
+44362 [http-8080-exec-1] DEBUG c.o.x.interceptor.I18nInterceptor - before Locale=null
+44362 [http-8080-exec-1] DEBUG c.o.x.c.i.InstantiatingNullHandler - Entering nullPropertyValue [target=[com.mkyong.user.action.UserSpringAction@1ce50a9, com.opensymphony.xwork2.DefaultTextProvider@14feea], property=struts]
+44362 [http-8080-exec-1] DEBUG o.a.s.i.FileUploadInterceptor - Bypassing //userSpringAction
+44362 [http-8080-exec-1] DEBUG c.o.x.i.StaticParametersInterceptor - Setting static parameters {}
+44363 [http-8080-exec-1] DEBUG c.o.x.i.ParametersInterceptor - Setting params NONE
+44363 [http-8080-exec-1] DEBUG c.o.x.i.ParametersInterceptor - Setting params 
+44363 [http-8080-exec-1] DEBUG o.a.s.i.v.AnnotationValidationInterceptor - Validating //userSpringAction with method execute.
+44373 [http-8080-exec-1] DEBUG c.o.xwork2.DefaultActionInvocation - Executing action method = null
+44378 [http-8080-exec-1] INFO  c.m.user.action.UserSpringAction - raju.............
+44378 [http-8080-exec-1] INFO  c.m.user.action.UserSpringAction - raju.............
+44379 [http-8080-exec-1] INFO  c.m.user.action.UserSpringAction - raju.............
+44379 [http-8080-exec-1] DEBUG c.m.user.action.UserSpringAction - >>RAMESH<<
+44379 [http-8080-exec-1] DEBUG c.m.user.action.UserSpringAction - >>RAMESH<<
+44379 [http-8080-exec-1] DEBUG c.m.user.action.UserSpringAction - >>RAMESH<<
+44379 [http-8080-exec-1] DEBUG c.m.user.action.UserSpringAction - >>RAMESH<<
+44379 [http-8080-exec-1] WARN  c.m.user.action.UserSpringAction - KIRAN....TESTING
+44379 [http-8080-exec-1] WARN  c.m.user.action.UserSpringAction - KIRAN....TESTING
+44379 [http-8080-exec-1] WARN  c.m.user.action.UserSpringAction - KIRAN....TESTING
+44380 [http-8080-exec-1] DEBUG o.a.s.d.ServletDispatcherResult - Forwarding to location pages/user.jsp
+44381 [http-8080-exec-1] DEBUG c.o.x.c.i.InstantiatingNullHandler - Entering nullPropertyValue [target=[com.mkyong.user.action.UserSpringAction@1ce50a9, com.opensymphony.xwork2.DefaultTextProvider@14feea], property=org]
+44382 [http-8080-exec-1] DEBUG c.o.x.config.ConfigurationManager - Checking ConfigurationProviders for reload.
+44383 [http-8080-exec-1] DEBUG c.o.x.c.impl.XWorkConverter - Property: userBo
+44383 [http-8080-exec-1] DEBUG c.o.x.c.impl.XWorkConverter - Class: com.mkyong.user.action.UserSpringAction
+44383 [http-8080-exec-1] DEBUG c.o.x.c.impl.XWorkConverter - field-level type converter for property [userBo] = none found
+44383 [http-8080-exec-1] DEBUG c.o.x.c.impl.XWorkConverter - Property: userBo.userBo
+44383 [http-8080-exec-1] DEBUG c.o.x.c.impl.XWorkConverter - Class: com.mkyong.user.action.UserSpringAction
+44383 [http-8080-exec-1] DEBUG c.o.x.c.impl.XWorkConverter - global-level type converter for property [userBo] = none found
+44383 [http-8080-exec-1] DEBUG c.o.x.c.impl.XWorkConverter - falling back to default type converter [com.opensymphony.xwork2.conversion.impl.XWorkBasicConverter@10a3ffc]
+44384 [http-8080-exec-1] DEBUG c.o.x.c.i.InstantiatingNullHandler - Entering nullPropertyValue [target=[com.mkyong.user.action.UserSpringAction@1ce50a9, com.opensymphony.xwork2.DefaultTextProvider@14feea], property=locale]
+44384 [http-8080-exec-1] DEBUG c.o.x.interceptor.I18nInterceptor - after Locale=null
+44384 [http-8080-exec-1] DEBUG c.o.x.interceptor.I18nInterceptor - intercept } 
+49166 [http-8080-exec-1] DEBUG c.o.x.config.ConfigurationManager - Checking ConfigurationProviders for reload.
+49167 [http-8080-exec-1] DEBUG c.o.x.c.i.InstantiatingNullHandler - Entering nullPropertyValue [target=[com.opensymphony.xwork2.DefaultTextProvider@14feea], property=struts]
+49168 [http-8080-exec-1] DEBUG c.o.x.config.ConfigurationManager - Checking ConfigurationProviders for reload.
+49169 [http-8080-exec-1] DEBUG c.o.x.c.i.InstantiatingNullHandler - Entering nullPropertyValue [target=[com.opensymphony.xwork2.DefaultTextProvider@14feea], property=struts]
+49169 [http-8080-exec-1] DEBUG c.o.x.config.ConfigurationManager - Checking ConfigurationProviders for reload.
+49170 [http-8080-exec-1] DEBUG c.o.xwork2.DefaultActionProxy - Creating an DefaultActionProxy for namespace / and action name userAction
+49186 [http-8080-exec-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'userBo'
+49187 [http-8080-exec-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Added autowiring by name from bean name 'com.mkyong.user.action.UserAction' via property 'userBo' to bean named 'userBo'
+49197 [http-8080-exec-1] DEBUG c.o.x.interceptor.I18nInterceptor - intercept '//userAction' { 
+49197 [http-8080-exec-1] DEBUG c.o.x.interceptor.I18nInterceptor - applied invocation context locale=en_US
+49198 [http-8080-exec-1] DEBUG c.o.x.interceptor.I18nInterceptor - before Locale=en_US
+49198 [http-8080-exec-1] DEBUG c.o.x.c.i.InstantiatingNullHandler - Entering nullPropertyValue [target=[com.mkyong.user.action.UserAction@1bf61a0, com.opensymphony.xwork2.DefaultTextProvider@14feea], property=struts]
+49212 [http-8080-exec-1] DEBUG o.a.s.i.FileUploadInterceptor - Bypassing //userAction
+49212 [http-8080-exec-1] DEBUG c.o.x.i.StaticParametersInterceptor - Setting static parameters {}
+49212 [http-8080-exec-1] DEBUG c.o.x.i.ParametersInterceptor - Setting params NONE
+49212 [http-8080-exec-1] DEBUG c.o.x.i.ParametersInterceptor - Setting params 
+49212 [http-8080-exec-1] DEBUG o.a.s.i.v.AnnotationValidationInterceptor - Validating //userAction with method execute.
+49244 [http-8080-exec-1] DEBUG c.o.x.v.ValidationInterceptor - Invoking validate() on action com.mkyong.user.action.UserAction@1bf61a0
+49246 [http-8080-exec-1] DEBUG c.o.x.i.PrefixMethodInvocationUtil - cannot find method [validateExecute] in action [com.mkyong.user.action.UserAction@1bf61a0]
+49246 [http-8080-exec-1] DEBUG c.o.x.i.PrefixMethodInvocationUtil - cannot find method [validateDoExecute] in action [com.mkyong.user.action.UserAction@1bf61a0]
+49246 [http-8080-exec-1] DEBUG c.o.xwork2.DefaultActionInvocation - Executing action method = null
+49258 [http-8080-exec-1] INFO  com.mkyong.user.action.UserAction - raju.............
+49258 [http-8080-exec-1] INFO  com.mkyong.user.action.UserAction - raju.............
+49259 [http-8080-exec-1] INFO  com.mkyong.user.action.UserAction - raju.............
+49272 [http-8080-exec-1] DEBUG o.a.s.d.ServletDispatcherResult - Forwarding to location pages/user.jsp
+49273 [http-8080-exec-1] DEBUG c.o.x.c.i.InstantiatingNullHandler - Entering nullPropertyValue [target=[com.mkyong.user.action.UserAction@1bf61a0, com.opensymphony.xwork2.DefaultTextProvider@14feea], property=org]
+49273 [http-8080-exec-1] DEBUG c.o.x.config.ConfigurationManager - Checking ConfigurationProviders for reload.
+49274 [http-8080-exec-1] DEBUG c.o.x.c.impl.XWorkConverter - Property: userBo
+49274 [http-8080-exec-1] DEBUG c.o.x.c.impl.XWorkConverter - Class: com.mkyong.user.action.UserAction
+49285 [http-8080-exec-1] DEBUG c.o.x.c.impl.XWorkConverter - converter is null for property userBo. Mapping size: 0
+49286 [http-8080-exec-1] DEBUG c.o.x.c.impl.XWorkConverter - field-level type converter for property [userBo] = none found
+49286 [http-8080-exec-1] DEBUG c.o.x.c.impl.XWorkConverter - Property: userBo.userBo
+49286 [http-8080-exec-1] DEBUG c.o.x.c.impl.XWorkConverter - Class: com.mkyong.user.action.UserAction
+49286 [http-8080-exec-1] DEBUG c.o.x.c.impl.XWorkConverter - global-level type converter for property [userBo] = none found
+49286 [http-8080-exec-1] DEBUG c.o.x.c.impl.XWorkConverter - falling back to default type converter [com.opensymphony.xwork2.conversion.impl.XWorkBasicConverter@10a3ffc]
+49286 [http-8080-exec-1] DEBUG c.o.x.interceptor.I18nInterceptor - after Locale=en_US
+49286 [http-8080-exec-1] DEBUG c.o.x.interceptor.I18nInterceptor - intercept } 
+139711 [Thread-2] DEBUG c.o.x.config.ConfigurationManager - Checking ConfigurationProviders for reload.
+139714 [Thread-2] DEBUG c.o.x.config.ConfigurationManager - Checking ConfigurationProviders for reload.
+139734 [Thread-2] INFO  o.s.w.c.s.XmlWebApplicationContext - Closing org.springframework.web.context.support.XmlWebApplicationContext@974e4b: display name [Root WebApplicationContext]; startup date [Thu Jan 20 16:53:09 IST 2011]; root of context hierarchy
+139734 [Thread-2] INFO  o.s.b.f.s.DefaultListableBeanFactory - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@bb9f5b: defining beans [userBo,userSpringAction]; root of factory hierarchy
